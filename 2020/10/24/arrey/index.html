@@ -8,15 +8,15 @@
   <link rel="dns-prefetch" href="http://example.com">
   <title>简单聊聊数组 | 幸运男孩</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="创建的数组的两种方式 第一种是使用Array构造函数，代码如下：1var colors &#x3D; new Array(); 如果预先知道数组要保存的项目数目，也可以直接给函数传递该数量：var colors &#x3D; new Array(20),这个20表示的数组的长度为20； 第二种是数组字面量表示法，代码如下：1var colors &#x3D; []; 检测数组 对于一个网页或者一个全局作用域">
+  <meta name="description" content="创建的数组的两种方式 第一种是使用Array构造函数，代码如下： 1var colors &#x3D; new Array(); 如果预先知道数组要保存的项目数目，也可以直接给函数传递该数量：var colors &#x3D; new Array(20),这个20表示的数组的长度为20；">
 <meta property="og:type" content="article">
 <meta property="og:title" content="简单聊聊数组">
-<meta property="og:url" content="http://example.com/2020/10/24/%E7%AE%80%E5%8D%95%E8%81%8A%E8%81%8A%E6%95%B0%E7%BB%84/index.html">
+<meta property="og:url" content="http://example.com/2020/10/24/arrey/index.html">
 <meta property="og:site_name" content="幸运男孩">
-<meta property="og:description" content="创建的数组的两种方式 第一种是使用Array构造函数，代码如下：1var colors &#x3D; new Array(); 如果预先知道数组要保存的项目数目，也可以直接给函数传递该数量：var colors &#x3D; new Array(20),这个20表示的数组的长度为20； 第二种是数组字面量表示法，代码如下：1var colors &#x3D; []; 检测数组 对于一个网页或者一个全局作用域">
+<meta property="og:description" content="创建的数组的两种方式 第一种是使用Array构造函数，代码如下： 1var colors &#x3D; new Array(); 如果预先知道数组要保存的项目数目，也可以直接给函数传递该数量：var colors &#x3D; new Array(20),这个20表示的数组的长度为20；">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-10-24T01:47:42.000Z">
-<meta property="article:modified_time" content="2020-10-24T04:41:53.990Z">
+<meta property="article:modified_time" content="2020-10-24T04:55:53.883Z">
 <meta property="article:author" content="aiya">
 <meta property="article:tag" content="JavaScript">
 <meta name="twitter:card" content="summary">
@@ -155,7 +155,7 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-简单聊聊数组" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-arrey" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
@@ -167,7 +167,7 @@
   
 
         
-        <a href="/2020/10/24/%E7%AE%80%E5%8D%95%E8%81%8A%E8%81%8A%E6%95%B0%E7%BB%84/" class="archive-article-date">
+        <a href="/2020/10/24/arrey/" class="archive-article-date">
   	<time datetime="2020-10-24T01:47:42.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-10-24</time>
 </a>
         
@@ -176,20 +176,35 @@
     <div class="article-entry" itemprop="articleBody">
       
         <h2 id="创建的数组的两种方式"><a href="#创建的数组的两种方式" class="headerlink" title="创建的数组的两种方式"></a>创建的数组的两种方式</h2><ol>
-<li>第一种是使用Array构造函数，代码如下：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">var colors &#x3D; new Array();</span><br></pre></td></tr></table></figure>
-如果预先知道数组要保存的项目数目，也可以直接给函数传递该数量：<code>var colors = new Array(20)</code>,这个20表示的数组的长度为20；</li>
-<li>第二种是数组字面量表示法，代码如下：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">var colors &#x3D; [];</span><br></pre></td></tr></table></figure>
+<li><p>第一种是使用Array构造函数，代码如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">var colors &#x3D; new Array();</span><br></pre></td></tr></table></figure>
+<p>如果预先知道数组要保存的项目数目，也可以直接给函数传递该数量：<code>var colors = new Array(20)</code>,这个20表示的数组的长度为20；</p>
+<a id="more"></a>
+</li>
+<li><p>第二种是数组字面量表示法，代码如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">var colors &#x3D; [];</span><br></pre></td></tr></table></figure>
 <h2 id="检测数组"><a href="#检测数组" class="headerlink" title="检测数组"></a>检测数组</h2></li>
-<li>对于一个网页或者一个全局作用域而言，使用<code>instanceof</code>就能得到满意的答案；<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">var colorarr &#x3D; [&quot;red&quot;,&quot;blue&quot;,&quot;green&quot;];</span><br><span class="line">var colorstr &#x3D; &quot;red&quot;;</span><br><span class="line">console.log(colorarr instanceof Array) &#x2F;&#x2F; true</span><br><span class="line">console.log(colorstr instanceof Array) &#x2F;&#x2F; false</span><br></pre></td></tr></table></figure>
-但是，如果从一个框架向另外一个框架传入一个数组，这个方法就不可用了；代码如下：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; parent.html</span><br><span class="line">    &#x2F;&#x2F; html</span><br><span class="line">    &lt;iframe src&#x3D;&quot;child.html&quot; id&#x3D;&quot;child&quot; width&#x3D;&quot;100%&quot; height&#x3D;&quot;100%&quot; frameborder&#x3D;&quot;0&quot;&gt;&lt;&#x2F;iframe&gt;</span><br><span class="line">    &#x2F;&#x2F; script</span><br><span class="line">    function toChildValue()&#123;</span><br><span class="line">        var arr &#x3D; [&quot;red&quot;,&quot;blue&quot;];</span><br><span class="line">        return arr;</span><br><span class="line">    &#125;</span><br><span class="line">&#x2F;&#x2F; child.html</span><br><span class="line">    &#x2F;&#x2F; script</span><br><span class="line">    var getParentVule &#x3D; window.parent.toChildValue();</span><br><span class="line">    console.log(getParentVule instanceof Array) &#x2F;&#x2F; false</span><br></pre></td></tr></table></figure>
-所以ECMAScript5新增了Array.isArray()的方法,用这个方法再看上面的值就变成了true。<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">console.log(Array.isArray(getParentVule)) &#x2F;&#x2F; true</span><br></pre></td></tr></table></figure>
-兼容了的浏览器有IE 9+、Firefox 4+、Safari 5+、Opera 10.5+和Chrome。<h2 id="转化方法"><a href="#转化方法" class="headerlink" title="转化方法"></a>转化方法</h2>调用<code>valueOf()</code>返回的是数组本身，而调用数组的<code>toString()</code>方法会返回由数组中每一个值的字符串形式拼接成的一个以逗号分隔的字符串。<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">var colors &#x3D; [&quot;red&quot;,&quot;blue&quot;,&quot;green&quot;];</span><br><span class="line">console.log(typeof colors.valueOf()) &#x2F;&#x2F; object [&quot;red&quot;,&quot;blue&quot;,&quot;green&quot;]</span><br><span class="line">console.log(typeof colors.toString()) &#x2F;&#x2F; string  red,blue,green</span><br></pre></td></tr></table></figure>
-在默认情况下，都是以逗号进行分隔的，如果想用不同的符号进行分隔，可以使用<code>join()</code>方法；<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">console.log(colors.join(&quot;-&quot;)) &#x2F;&#x2F; red-blue-green</span><br></pre></td></tr></table></figure>
-<h2 id="队列方法"><a href="#队列方法" class="headerlink" title="队列方法"></a>队列方法</h2>向数组末尾添加的方法<code>push()</code>;<br>向数组前端添加的方法<code>unshift()</code>;<br>取出数组末尾项的方法<code>pop()</code>;<br>取出数组第一项的方法<code>shift()</code>;<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">var num &#x3D; [1,2,3];</span><br><span class="line">&#x2F;&#x2F; push</span><br><span class="line">num.push(4)</span><br><span class="line">console.log(num) &#x2F;&#x2F; [1,2,3,4]</span><br><span class="line">&#x2F;&#x2F; unshift</span><br><span class="line">num.unshift(0)</span><br><span class="line">console.log(num) &#x2F;&#x2F; [0,1,2,3]]</span><br><span class="line">&#x2F;&#x2F; pop</span><br><span class="line">var newNum &#x3D; num.pop();</span><br><span class="line">console.log(num) &#x2F;&#x2F; [1,2]</span><br><span class="line">console.log(newNum) &#x2F;&#x2F; 3</span><br><span class="line">&#x2F;&#x2F; shift</span><br><span class="line">var newNum &#x3D; num.shift();</span><br><span class="line">console.log(num) &#x2F;&#x2F; [2,3]</span><br><span class="line">console.log(newNum) &#x2F;&#x2F; 1</span><br></pre></td></tr></table></figure>
-<h2 id="重排序方法"><a href="#重排序方法" class="headerlink" title="重排序方法"></a>重排序方法</h2>重排序的方法有两种，一种是<code>reverse()</code>,一种是<code>sort()</code>。<br><code>reverse()</code>这个方法就很简单了，就是单纯的将数组的反过来；<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">var num &#x3D; [1,4,3,2];</span><br><span class="line">num.reverse();</span><br><span class="line">console.log(num);&#x2F;&#x2F;[2,3,4,1]</span><br></pre></td></tr></table></figure>
-主要说一下<code>sort()</code>方法；<br>默认sort()方法按升序排列数组，此方法会调用每个数组项的<code>toString()</code>转型方法，然后去比较得到的字符串，以确定如何排序。所以此方法会有瑕疵，如下：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">var num &#x3D; [1,5,15,10];</span><br><span class="line">num.sort();</span><br><span class="line">console.log(num); &#x2F;&#x2F; [1,10,15,5]</span><br></pre></td></tr></table></figure>
-可以看到它会像咱们电脑文件的排序似得，会先排1开始的，如果我们想要一个正常升序的排列方式应该怎么做呢？见下方代码：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">function compare(val1,val2)&#123;</span><br><span class="line">    if(val1 &lt; val2)&#123;</span><br><span class="line">	return -1;</span><br><span class="line">    &#125;else if(val1 &gt; val2)&#123;</span><br><span class="line">	return 1;</span><br><span class="line">    &#125;else&#123;</span><br><span class="line">	return 0;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">num.sort(compare);</span><br><span class="line">console.log(num); &#x2F;&#x2F; [1,5,10,15]</span><br></pre></td></tr></table></figure>
-如果想要实现降序，只需要将判断条件中的±1换个位置即可。因为它是根据正负值算的，所以还有一种简单点的写法：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">function compare(val1,val2)&#123;</span><br><span class="line">    return val1 - val2;</span><br><span class="line">&#125;</span><br><span class="line">num.sort(compare);</span><br><span class="line">console.log(num); &#x2F;&#x2F; [1,5,10,15]</span><br></pre></td></tr></table></figure>
+<li><p>对于一个网页或者一个全局作用域而言，使用<code>instanceof</code>就能得到满意的答案；</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">var colorarr &#x3D; [&quot;red&quot;,&quot;blue&quot;,&quot;green&quot;];</span><br><span class="line">var colorstr &#x3D; &quot;red&quot;;</span><br><span class="line">console.log(colorarr instanceof Array) &#x2F;&#x2F; true</span><br><span class="line">console.log(colorstr instanceof Array) &#x2F;&#x2F; false</span><br></pre></td></tr></table></figure>
+<p>但是，如果从一个框架向另外一个框架传入一个数组，这个方法就不可用了；代码如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; parent.html</span><br><span class="line">    &#x2F;&#x2F; html</span><br><span class="line">    &lt;iframe src&#x3D;&quot;child.html&quot; id&#x3D;&quot;child&quot; width&#x3D;&quot;100%&quot; height&#x3D;&quot;100%&quot; frameborder&#x3D;&quot;0&quot;&gt;&lt;&#x2F;iframe&gt;</span><br><span class="line">    &#x2F;&#x2F; script</span><br><span class="line">    function toChildValue()&#123;</span><br><span class="line">        var arr &#x3D; [&quot;red&quot;,&quot;blue&quot;];</span><br><span class="line">        return arr;</span><br><span class="line">    &#125;</span><br><span class="line">&#x2F;&#x2F; child.html</span><br><span class="line">    &#x2F;&#x2F; script</span><br><span class="line">    var getParentVule &#x3D; window.parent.toChildValue();</span><br><span class="line">    console.log(getParentVule instanceof Array) &#x2F;&#x2F; false</span><br></pre></td></tr></table></figure>
+<p>所以ECMAScript5新增了Array.isArray()的方法,用这个方法再看上面的值就变成了true。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">console.log(Array.isArray(getParentVule)) &#x2F;&#x2F; true</span><br></pre></td></tr></table></figure>
+<p>兼容了的浏览器有IE 9+、Firefox 4+、Safari 5+、Opera 10.5+和Chrome。</p>
+<h2 id="转化方法"><a href="#转化方法" class="headerlink" title="转化方法"></a>转化方法</h2><p>调用<code>valueOf()</code>返回的是数组本身，而调用数组的<code>toString()</code>方法会返回由数组中每一个值的字符串形式拼接成的一个以逗号分隔的字符串。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">var colors &#x3D; [&quot;red&quot;,&quot;blue&quot;,&quot;green&quot;];</span><br><span class="line">console.log(typeof colors.valueOf()) &#x2F;&#x2F; object [&quot;red&quot;,&quot;blue&quot;,&quot;green&quot;]</span><br><span class="line">console.log(typeof colors.toString()) &#x2F;&#x2F; string  red,blue,green</span><br></pre></td></tr></table></figure>
+<p>在默认情况下，都是以逗号进行分隔的，如果想用不同的符号进行分隔，可以使用<code>join()</code>方法；</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">console.log(colors.join(&quot;-&quot;)) &#x2F;&#x2F; red-blue-green</span><br></pre></td></tr></table></figure>
+<h2 id="队列方法"><a href="#队列方法" class="headerlink" title="队列方法"></a>队列方法</h2><p>向数组末尾添加的方法<code>push()</code>;<br>向数组前端添加的方法<code>unshift()</code>;<br>取出数组末尾项的方法<code>pop()</code>;<br>取出数组第一项的方法<code>shift()</code>;</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">var num &#x3D; [1,2,3];</span><br><span class="line">&#x2F;&#x2F; push</span><br><span class="line">num.push(4)</span><br><span class="line">console.log(num) &#x2F;&#x2F; [1,2,3,4]</span><br><span class="line">&#x2F;&#x2F; unshift</span><br><span class="line">num.unshift(0)</span><br><span class="line">console.log(num) &#x2F;&#x2F; [0,1,2,3]]</span><br><span class="line">&#x2F;&#x2F; pop</span><br><span class="line">var newNum &#x3D; num.pop();</span><br><span class="line">console.log(num) &#x2F;&#x2F; [1,2]</span><br><span class="line">console.log(newNum) &#x2F;&#x2F; 3</span><br><span class="line">&#x2F;&#x2F; shift</span><br><span class="line">var newNum &#x3D; num.shift();</span><br><span class="line">console.log(num) &#x2F;&#x2F; [2,3]</span><br><span class="line">console.log(newNum) &#x2F;&#x2F; 1</span><br></pre></td></tr></table></figure>
+<h2 id="重排序方法"><a href="#重排序方法" class="headerlink" title="重排序方法"></a>重排序方法</h2><p>重排序的方法有两种，一种是<code>reverse()</code>,一种是<code>sort()</code>。<br><code>reverse()</code>这个方法就很简单了，就是单纯的将数组的反过来；</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">var num &#x3D; [1,4,3,2];</span><br><span class="line">num.reverse();</span><br><span class="line">console.log(num);&#x2F;&#x2F;[2,3,4,1]</span><br></pre></td></tr></table></figure>
+<p>主要说一下<code>sort()</code>方法；<br>默认sort()方法按升序排列数组，此方法会调用每个数组项的<code>toString()</code>转型方法，然后去比较得到的字符串，以确定如何排序。所以此方法会有瑕疵，如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">var num &#x3D; [1,5,15,10];</span><br><span class="line">num.sort();</span><br><span class="line">console.log(num); &#x2F;&#x2F; [1,10,15,5]</span><br></pre></td></tr></table></figure>
+<p>可以看到它会像咱们电脑文件的排序似得，会先排1开始的，如果我们想要一个正常升序的排列方式应该怎么做呢？见下方代码：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">function compare(val1,val2)&#123;</span><br><span class="line">    if(val1 &lt; val2)&#123;</span><br><span class="line">	return -1;</span><br><span class="line">    &#125;else if(val1 &gt; val2)&#123;</span><br><span class="line">	return 1;</span><br><span class="line">    &#125;else&#123;</span><br><span class="line">	return 0;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">num.sort(compare);</span><br><span class="line">console.log(num); &#x2F;&#x2F; [1,5,10,15]</span><br></pre></td></tr></table></figure>
+<p>如果想要实现降序，只需要将判断条件中的±1换个位置即可。因为它是根据正负值算的，所以还有一种简单点的写法：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">function compare(val1,val2)&#123;</span><br><span class="line">    return val1 - val2;</span><br><span class="line">&#125;</span><br><span class="line">num.sort(compare);</span><br><span class="line">console.log(num); &#x2F;&#x2F; [1,5,10,15]</span><br></pre></td></tr></table></figure>
 <h2 id="操作方法"><a href="#操作方法" class="headerlink" title="操作方法"></a>操作方法</h2></li>
 </ol>
 <ul>
@@ -203,7 +218,7 @@
 <h2 id="归并方法"><a href="#归并方法" class="headerlink" title="归并方法"></a>归并方法</h2>归并方法有两种：<code>reduce()</code>和<code>reduceRight()</code>，这两个方法都会迭代数组的所有项，然后构建一个最终的返回值；不同的地方就是<code>reduce()</code>是从左向右，<code>reduceRight()</code>是从右向左；下面举个<code>reduce()</code>的例子：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">var num &#x3D; [1,2,3,4,5,4,3,2,1];</span><br><span class="line">var val &#x3D; num.reduce(function(prev,cur)&#123;</span><br><span class="line">    return prev + cur;</span><br><span class="line">&#125;)</span><br><span class="line">console.log(val) &#x2F;&#x2F; 25</span><br></pre></td></tr></table></figure>
 关于数组的一些方法就先聊到这0.0</li>
 </ul>
-<a id="more"></a>
+<!--more-->
       
 
       
@@ -293,7 +308,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2020/10/24/%E7%AE%80%E5%8D%95%E8%81%8A%E8%81%8A%E6%95%B0%E7%BB%84/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2020/10/24/arrey/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -307,15 +322,11 @@
   
 <nav id="article-nav">
   
-    <a href="/2020/10/24/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7-weflow%E7%9A%84%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          前端开发工具-weflow的简单使用
-        
-      </div>
-    </a>
   
+    <a href="/2020/10/24/weflow/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">前端开发工具-weflow的简单使用</div>
+      <i class="icon-circle-right"></i>
+    </a>
   
 </nav>
 
@@ -452,11 +463,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">工具</a>
+                <a href="javascript:void(0)" class="js-tag color1">JavaScript</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">JavaScript</a>
+                <a href="javascript:void(0)" class="js-tag color3">工具</a>
               </li>
             
             <div class="clearfix"></div>
